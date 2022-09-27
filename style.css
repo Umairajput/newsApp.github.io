@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+.heading_div {
+    text-align: center;
+}
+.image {
+    height: 30%;
+    width: 40%;
+}
+.accordion {
+    margin-top: 50px !important;
+    width: 70%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+    .accordion {
+        width: 100%;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .accordion-body {
+        margin: 0px;
+        padding: 0px;
+    }
+}
